@@ -1,3 +1,107 @@
-10,PEN,2.3
-11,CAR,8.8
-12,MAT,9.9
+id,name,cost
+1,Soup Knorr Chili With Beans,880433
+2,"Nut - Almond, Blanched, Ground",431449
+3,Chips Potato All Dressed - 43g,65657
+4,Monkfish - Fresh,316198
+5,Eggroll,181531
+6,Lamb - Ground,538230
+7,Cranberry Foccacia,207911
+8,Wine - George Duboeuf Rose,299105
+9,"Shrimp, Dried, Small / Lb",623896
+10,Lamb - Shanks,336390
+11,"Beans - Kidney, Canned",161543
+12,Sage - Ground,339364
+13,"Bread - Roll, Italian",337198
+14,Bread - Assorted Rolls,968036
+15,Beer - Maudite,483371
+16,Coffee Beans - Chocolate,193915
+17,Muffin - Carrot Individual Wrap,415801
+18,Extract Vanilla Pure,836644
+19,Cheese - Feta,937739
+20,Chocolate - Semi Sweet,612604
+21,Wine - Sicilia Igt Nero Avola,23166
+22,"Sprite, Diet - 355ml",810307
+23,"Pasta - Rotini, Colour, Dry",523808
+24,General Purpose Trigger,277420
+25,"Bread - Roll, Calabrese",760910
+26,"Stock - Beef, Brown",550479
+27,Oysters - Smoked,120467
+28,Dasheen,609502
+29,Cheese - Comtomme,207304
+30,Rhubarb,924304
+31,Chocolate - Liqueur Cups With Foil,844785
+32,"Croissant, Raw - Mini",716463
+33,Orange Roughy 6/8 Oz,855166
+34,Kaffir Lime Leaves,32047
+35,Wine - Casillero Del Diablo,889508
+36,"Cheese - Boursin, Garlic / Herbs",250145
+37,Bread - English Muffin,681146
+38,Cinnamon Buns Sticky,519926
+39,Pumpkin - Seed,697555
+40,Pork - Hock And Feet Attached,243573
+41,Quail Eggs - Canned,554771
+42,Hog / Sausage Casing - Pork,577078
+43,Juice - Prune,799503
+44,Bread - Italian Sesame Poly,222827
+45,Nantucket - Orange Mango Cktl,22531
+46,Vodka - Smirnoff,267388
+47,Langers - Cranberry Cocktail,258741
+48,Corn Kernels - Frozen,243430
+49,Coffee Guatemala Dark,475721
+50,"Cheese - Cheddar, Mild",920846
+51,Marjoram - Fresh,111443
+52,Sultanas,524125
+53,"Shrimp - 21/25, Peel And Deviened",253098
+54,"Pork - Loin, Bone - In",52356
+55,"Beans - Black Bean, Canned",891190
+56,Wine - Tribal Sauvignon,37589
+57,Longos - Cheese Tortellini,698
+58,Pepper - Roasted Red,417762
+59,Rice Wine - Aji Mirin,165371
+60,Bread - Malt,8661
+61,Cheese - Cream Cheese,354677
+62,Gooseberry,64591
+63,Arizona - Plum Green Tea,192173
+64,"Cod - Salted, Boneless",424868
+65,Chevere Logs,866875
+66,Sour Puss Raspberry,608970
+67,Appetizer - Seafood Assortment,476211
+68,Anchovy In Oil,147628
+69,Bacardi Limon,347745
+70,Chocolate - Mi - Amere Semi,93600
+71,Icecream - Dstk Cml And Fdg,419954
+72,"Juice - Tomato, 10 Oz",264857
+73,Sage - Ground,691939
+74,Tuna - Yellowfin,111767
+75,"Red Snapper - Fresh, Whole",897106
+76,Energy Drink - Franks Pineapple,62092
+77,Chick Peas - Dried,903688
+78,Bread - Flat Bread,32264
+79,"Juice - Tomato, 48 Oz",853451
+80,"Veal - Inside Round / Top, Lean",664927
+81,Cheese - Swiss,426466
+82,Plaintain,51735
+83,"Quail - Eggs, Fresh",43482
+84,Sour Puss Sour Apple,426667
+85,Ginger - Ground,823229
+86,Sun - Dried Tomatoes,315789
+87,"Chicken - White Meat, No Tender",552740
+88,Stainless Steel Cleaner Vision,528485
+89,Sobe - Berry Energy,790489
+90,Chocolate - Sugar Free Semi Choc,440769
+91,Beans - Yellow,168709
+92,Cake - Mini Cheesecake,874689
+93,Anchovy Fillets,131141
+94,Breadfruit,499279
+95,"Soup - Campbells, Spinach Crm",238941
+96,Wine - Vouvray Cuvee Domaine,562933
+97,"Vermacelli - Sprinkles, Assorted",810324
+98,Jolt Cola,408459
+99,Towels - Paper / Kraft,748579
+100,Dried Cherries,515746
+101,PEN,200.0
+102,BOOK,300.0
+103,KEYBOARD,500
+104,MOUSE,100
+105,MONITER,600
+106,MOBILE,600
