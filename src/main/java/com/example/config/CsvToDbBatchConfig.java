@@ -24,9 +24,11 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.sql.DataSource;
 
+public class CsvToDbBatchConfig {}
 
+/*
 @Configuration
-public class StudentBatchConfig {
+public class CsvToDbBatchConfig {
 
     @Autowired
     private JobRepository jobRepository;
@@ -39,7 +41,7 @@ public class StudentBatchConfig {
 
     @Bean
     public Job runJob() {
-        return new JobBuilder("importStudents", jobRepository)
+        return new JobBuilder("importProducts", jobRepository)
             .start(stepA())
             .listener(
                 new JobExecutionListener() {
@@ -106,4 +108,4 @@ public class StudentBatchConfig {
         asyncTaskExecutor.setConcurrencyLimit(10);
         return asyncTaskExecutor;
     }
-}
+}*/
