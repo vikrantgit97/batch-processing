@@ -1,1 +1,18 @@
 job repository: is a memory that holds all details of executed batch like job details step details
+every task is called job & its task isc called as step
+    step contains
+        a. reader | ItemReader
+        b. processor | ItemProcessor
+        c. writer | ItemWriter
+Reader : read data from source (taking input)
+Processor : Do Operation/Calculation... given by reader
+Writer : writes data to destination (Give Output)
+
+Job : one job contains at least one step at most n-step
+
+Job execution are done by JobLauncher
+
+Job, Steps, execution details are stored in JobRepository (memory)
+
+Batch processing always run as background process. No need to stop UI operations.
+Batch processing is like a demon thread.

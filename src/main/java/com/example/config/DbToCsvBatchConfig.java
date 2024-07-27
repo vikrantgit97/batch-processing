@@ -24,6 +24,9 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.sql.DataSource;
 
+public class DbToCsvBatchConfig {}
+/*
+
 @Configuration
 public class DbToCsvBatchConfig {
 
@@ -112,3 +115,4 @@ public class DbToCsvBatchConfig {
         return asyncTaskExecutor;
     }
 }
+*/
