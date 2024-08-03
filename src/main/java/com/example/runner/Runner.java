@@ -1,6 +1,8 @@
 package com.example.runner;
 
 import com.example.BatchProcessingApplication;
+import lombok.extern.slf4j.Slf4j;
+import lombok.val;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobParameters;
 import org.springframework.batch.core.JobParametersBuilder;
@@ -13,7 +15,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
+
+import java.nio.file.*;
+import java.util.Calendar;
+
+public class Runner{}
+
+
+/*
 
 @Component
 public class Runner implements ApplicationRunner{
@@ -44,4 +56,4 @@ public class Runner implements ApplicationRunner{
 	}
 
 }
-
+*/

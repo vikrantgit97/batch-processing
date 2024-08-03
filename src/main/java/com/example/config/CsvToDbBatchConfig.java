@@ -27,6 +27,7 @@ import javax.sql.DataSource;
 public class CsvToDbBatchConfig {}
 
 /*
+
 @Configuration
 public class CsvToDbBatchConfig {
 
@@ -108,4 +109,5 @@ public class CsvToDbBatchConfig {
         asyncTaskExecutor.setConcurrencyLimit(10);
         return asyncTaskExecutor;
     }
-}*/
+}
+*/

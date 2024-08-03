@@ -25,6 +25,9 @@ import org.springframework.core.task.TaskExecutor;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.transaction.PlatformTransactionManager;
 
+public class CsvToXmlBatchConfig {}
+/*
+
 @Configuration
 public class CsvToXmlBatchConfig {
 
@@ -112,3 +115,4 @@ public class CsvToXmlBatchConfig {
         return asyncTaskExecutor;
     }
 }
+*/

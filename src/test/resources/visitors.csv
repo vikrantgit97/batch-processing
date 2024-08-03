@@ -1,0 +1,6 @@
+visitor_id,first_name,last_name,email_address,phone_number,address,visit_date
+1,John,Doe,john.doe@example.com,(555) 123-4567,123 Main St,2024-02-05
+2,Jane,Smith,jane.smith@example.com,(555) 987-6543,456 Oak St,2024-02-06
+3,Michael,Johnson,michael.j@example.com,(555) 555-5555,789 Pine St,2024-02-07
+4,Alice,Williams,alice.w@example.com,(555) 456-7890,101 Elm St,2024-02-08
+5,David,Miller,david.m@example.com,(555) 111-2222,202 Birch St,2024-02-09

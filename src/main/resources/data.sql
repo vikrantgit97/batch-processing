@@ -18,6 +18,19 @@ CREATE TABLE `student` (
        `stdFee` double DEFAULT NULL
 );
 
+drop table if exists `visitors`;
+
+CREATE TABLE `visitors` (
+      id int AUTO_INCREMENT PRIMARY KEY,
+      visitor_id BIGINT,
+      first_name VARCHAR(255),
+      last_name VARCHAR(255),
+      email_address VARCHAR(255),
+      phone_number VARCHAR(50),
+      address TEXT,
+      visit_date VARCHAR(50)
+);
+
 INSERT INTO student (stdId, stdName, stdFee) VALUES (1, 'Alice Johnson', 5000.00);
 INSERT INTO student (stdId, stdName, stdFee) VALUES (2, 'Bob Smith', 4500.00);
 INSERT INTO student (stdId, stdName, stdFee) VALUES (3, 'Charlie Brown', 4700.00);
