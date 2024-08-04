@@ -30,19 +30,11 @@ public class VisitorRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        val jobParameters = new JobParametersBuilder()
-                .addDate("timestamp", Calendar.getInstance().getTime())
-                .addString("inputFile", INPUt_FILE)
-                .toJobParameters();
-        val jobExecution = jobLauncher.run(job, jobParameters);
-        while (jobExecution.isRunning()) {
-            log.info("..................");
-        }
+        runWith(INPUt_FILE);
     }
 
 
-    @Scheduled(fixedRate = 2000)
-    public void run(String inputFile) throws Exception {
+    public void runWith(String inputFile) throws Exception {
         val jobParameters = new JobParametersBuilder()
                 .addDate("timestamp", Calendar.getInstance().getTime())
                 .addString("inputFile", inputFile)
@@ -50,9 +42,10 @@ public class VisitorRunner implements ApplicationRunner {
         jobLauncher.run(job, jobParameters);
     }
 
+    @Scheduled(fixedRate = 2000)
     public void runJob() {
 
-        val path = Paths.get("/home/user/Vikrant"); // to be changed to your directory.
+        val path = Paths.get("/home/user/Templates"); // to be changed to your directory.
         WatchKey key;
         WatchService watchService = null;
         try {
@@ -64,7 +57,7 @@ public class VisitorRunner implements ApplicationRunner {
 
                     log.info("Event kind:{}. File affected: {}.", event.kind(), event.context());
                     if (event.kind().name().equals("ENTRY_CREATE")) {
-                        run(path + "/" + event.context().toString()); // Add the file name pattern validation here
+                        runWith(path + "/" + event.context().toString()); // Add the file name pattern validation here
                     }
                 }
                 key.reset();
